@@ -1,5 +1,8 @@
-# rust-commandline-example
+# bitacora-actividades
 
-Example for building a command line application using Rust
+Prototipo de bitacora por linea de comandos para guardar datos de actividades
 
-You can start it using `cargo run` and then navigate to `Home` by pressing `h`, to the `Pets` menu using `p` and you can add random pets using `a` and deleted the selected pet using `d`. By pressing `q`, you can quit the program.
+Aun se agregan datos que lee desde una variable que esta "harcoded" dentro de codigo fuente, falta agregar lectura de argumentos desde CLI
+lo que sería la opcion mas facil y rapida, pero no he tenido aun tiempo para implmentarlo.
+Lo hice modificando otro loger de un tutorial.
+La ventaja de hacerlo es RUST es la velocidad y poca molestia para ejecutarlo desde una ventana minima de terminal.
